@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{9FE621A4-76A5-AB42-DFAC-C61F67EE9AF2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2022_3_12;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.21</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2022.3.12f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="X:\Unity\2022.3.12f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="X:\Unity\2022.3.12f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects By Type\FilterHeroObjectsByType.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects By Name\FilterHeroObjectsByName.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Persistent Objects\Make Object Not Persistent\MakeNotPersistent.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Save Setting\SaveSetting.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Properties\HeroProperties.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get All Hero Objects In Scene\GetAllHeroObjectsInScene.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Down\MoveDown.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Change Text Field (Int)\ChangeTextInt.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroJump2D-UNDER-CONSTRUCTION.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Game Objects\Get Source Game Object\GetSourceGameObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero States\State\Block\Action\HeroAction.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects By Position\FilterHeroObjectsByPosition.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Spawn and Destroy Objects\Turn Game Object Off\TurnGameObjectOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Random 2D\TurnRandom2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\HeroPropertyValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Turn Canvas On or Off\ToggleCanvas.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Player Controllers\Space Shooter Controller Off\SpaceShooterControllerOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Camera\Third Person Camera Off\ThirdPersonCameraOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Start Menu\Show Start Menu\ShowStartMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Animation\Stop Animation With Bool\StopAnimationBool.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\4. Hero Common\Data\HeroKitGlobals.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Fade In BGS\FadeInBGS.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Game Objects\Get Game Object\GetGameObject.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Effects\Particle Effects\Play Particle Effect in Scene\PlayParticleInScene.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\RigidbodyValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Modify Hero Object\CanPauseHeroObjectOff\CanPauseHeroObjectOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Pathfinding\Navigate Toward Position Off\NavigateTowardPositionOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Away From Object\MoveAwayFromObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Animation\Play Animation With Bool\PlayAnimationBool.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\CoordinatesValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Dialog and Language\Use Localization\UseLocalization.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Persistent Objects\Make Object Persistent\MakePersistent.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\HeroObjectTargetField.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\SliderValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Stop BGM\StopBGM.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Toward Object\MoveTowardObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Get Slider Value Int\GetSliderValueInt.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Change Canvas Alpha\ChangeCanvasAlpha.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroFloat3D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Journal Menu\Remove Journal Entry\RemoveJournalEntry.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Morph Hero Object\MorphHeroObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Properties\HeroPropertiesList.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Fade Out BGS\FadeOutBGS.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Load Game\LoadGame.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero States\State\Block\Action\HeroActionField.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Random 2D\MoveRandom2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Objects By Ray 2D\GetHeroObjectByRay2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Turn Canvas On\TurnCanvasOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Game Objects\Get Child on Hero Object\GetChildOnHeroObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Change Jump Surfaces\ChangeJumpSurfaces.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Misc\Rise\Rise.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Quit Game\QuitGame.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Up 2D\MoveUp2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Left\TurnLeft.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Player Controllers\RPG Controller On\TopDownControllerOn2D.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero States\State\HeroState.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\End Game Menu\Change End Game Menu\ChangeGameOverMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects By Layer\FilterHeroObjectsByLayer.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\FieldInfoValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Pause Game Off\UnpauseGame.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Turn Canvas Off\TurnCanvasOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Left 2D\TurnLeft2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Backward 2D\MoveBackward2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Dialog and Language\Change Font\ChangeFont.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroMove3D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects By Property\FilterHeroObjectsByProperty.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Animation\Play Animation Legacy\PlayAnimationLegacy.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Away From Object 2D\MoveAwayFromObject2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Objects By Layer\GetHeroObjectByLayer.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Play BGM\PlayBGM.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects By Tag\FilterHeroObjectsByTag.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D Platformer\Movement\Turn Left 2D Platformer\TurnLeft2DPlatformer.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Turn Audio Off\TurnAudioOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Start Menu\If Start Menu Open\IfStartMenuOpen.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects By Collision\FilterHeroObjectsByCollision.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroJump3D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Spawn and Destroy Objects\Turn Game Object On\TurnGameObjectOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Helper Scripts\SerializableMethodInfo.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\FloatFieldValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Change BGS Settings\ChangeBGSSettings.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Options Menu\Add Options Menu\AddOptionsMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Go Through Objects On\GoThroughObjectsOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\If Load Save Menu Open\IfLoadSaveMenuOpen.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D Platformer\Movement\Move Left 2D Platformer\MoveLeft2DPlatformer.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\4. Hero Common\Data\HeroKitCommonScene.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Random Float\RandomFloat.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\If Game Object\IfGameObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\4. Hero Common\Data\HeroKitSession.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Get Game Name\GetGameName.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero States\HeroStateObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Player Controllers\Space Shooter Controller On\SpaceShooterControllerOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Script Component\Get Property\GetProperty.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Animate Move On 2D\AnimateMoveOn2D.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\OnCollisionContinueMovement\OnCollisionContinueMovement.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Hero UI Objects\Set HeroKit Listener Values\SetHeroKitListenerValues.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Stop BGS\StopBGS.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Templates\Hero Action Template\HeroActionTemplate.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Random Bool\RandomBool.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Pause Game On\PauseGame.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Change SE Settings\ChangeSESettings.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\IntegerFieldValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Lists\FloatList.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Lower Right 2D\TurnLowerRight2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Physics\Gravity On 2D\GravityOn2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\ChildObjectValue.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Wait\Wait.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Change Unity Object\ChangeUnityObject.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Change Float\ChangeFloat.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\5. Hero Listeners\Animation Event Listener\HeroKitListenerAnimationEvent.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Face Move Direction On\FaceMoveDirectionOn.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Lists\StringList.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Wait Frames\WaitFrames.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Lower Left 2D\TurnLowerLeft2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Hero UI Objects\Get HeroKit Listener Values\GetHeroKitListenerValues.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Journal Menu\Hide Journal Menu\HideJournalMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\StringFieldValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Rotate\Change Rotation\ChangeRotation2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Physics\Gravity Off\GravityOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Change Color of Text\ChangeTextColor.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Images\Rotate Image\RotateImage.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero States\State\Block\HeroVisuals.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Camera\First Person Camera On\FirstPersonCameraOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Face Move Direction Off\FaceMoveDirectionOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Play BGS\PlayBGS.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Objects By Position\GetHeroObjectByPosition.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Persistent Objects\Save Persistent Objects\SavePersistentObjects.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Play Event by ID\PlayEventByID.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Change Image Field\ChangeImage.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\UIPan.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\4. Hero Common\Data\HeroKitDatabase.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Scene Object Info\Set Layer\SetLayer.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\BoolFieldValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Modify Scene Object\Enable Component\EnableComponent.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Object In Scene\GetHeroObjectInScene.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Fade In BGM\FadeInBGM.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\TagMaskValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\PlatformerMovement2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\DropDownListValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Lower Right\MoveLowerRight.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\If Hero Object From Message\IfHeroObjectFromMessage.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Save Game\SaveGame.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\UIText.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Left 2D\MoveLeft2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Down 2D\MoveDown2D.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Lists\HeroObjectList.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\4. Hero Common\Data\HeroKitSettings.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Upper Right\MoveUpperRight.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\2. Hero Properties\Data\HeroKitProperty.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroObjectRotateToDegrees.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Effects\Other Effects\Flash Screen\FlashScreen.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Objects By GUID\GetHeroObjectByGUID.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Effects\Particle Effects\Stop Particle Effect\StopParticleEffect.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroSoundEffect.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Rotate\Rotate X Degrees\RotateXDegrees2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Rotate\Increment Rotation\IncrementRotation.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Change Jump Surfaces 2D\ChangeJumpSurfaces2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Change Move Duration\ChangeMoveDuration.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Face Move Direction On 2D\FaceMoveDirectionOn2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Random\TurnRandom.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Get Company Name\GetCompanyName.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Interfaces\IHeroKitAction.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Change Text Field (Float)\ChangeTextFloat.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Camera\2D Camera Off\OrthoCameraOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroObjectRotate.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Options Menu\If Options Menu Open\IfOptionsMenuOpen.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Go Through Objects On 2D\GoThroughObjectsOn2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Scene Object Info\Get Layer\GetLayer.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Pathfinding\Navigate Toward Object Off\NavigateTowardObjectOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Rotate\Rotate in Direction\RotateInDirection2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Lower Left\TurnLowerLeft.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Change Slider Value (Int)\ChangeSliderValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Go To Action\GoToAction.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroParticles.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Change Game Object\ChangeGameObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Camera\Third Person Camera On\ThirdPersonCameraOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\ObjectValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Change Integer\ChangeInteger.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Get Slider Value\GetSliderValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Pathfinding\Navigate Toward Position On\NavigateTowardPositionOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\CameraShake.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Right 2D\MoveRight2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Game Objects\Get Child on Game Object\GetChildOnGameObject.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Templates\Hero Action Template Long\HeroActionTemplateLong.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Animation\Change Animation Float\ChangeAnimationFloat.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Toward Object\TurnTowardObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Left\MoveLeft.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Lower Left 2D\MoveLowerLeft2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Camera\2D Camera On\OrthoCameraOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Modify Hero Object\CanSaveHeroObjectOn\CanSaveHeroObjectOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Get Integer From Template\GetIntegerFromTemplate.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Misc\Sink\Sink.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Go Through Objects Off\GoThroughObjectsOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Toward Object 2D\MoveTowardObject2D.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroSink3D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Physics\Change Gravity Strength 2D\ChangeGravityStrength2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\5. Hero Listeners\UI Listener\HeroKitListenerUI.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Modify Hero Object\CanPauseHeroObjectOn\CanPauseHeroObjectOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Set Jump Animation 2D\SetJumpAnimation2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\4. Hero Common\Data\HeroActionCommonRuntime.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\If String\IfString.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Images\Move Image\MoveImage.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\PropertyValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Script Component\Set Field\SetFieldInfo.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Down 2D\TurnDown2D.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\UIRotate.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\If Integer\IfInteger.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroPathfinding3D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Scene Object Info\Get Position\GetPosition.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Journal Menu\Change Journal Menu\ChangeJournalMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Change Integer B\ChangeIntegerB.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\OpenURL\OpenURL.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\ColorValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Animation\Play Animation With Trigger\PlayAnimationWithTrigger.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Misc\Jump\Jump.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroAudioFade.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Up 2D\TurnUp2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Dialog and Language\Show Message\ShowDialog.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Scene Object Info\Set Name\SetName.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Lists\ConditionIntList.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Backward\MoveBackward.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Change Animation Settings 2D\ChangeAnimationSettings2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Load Setting\LoadSetting.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Inventory Menu\If Inventory Menu Open\IfInventoryMenuOpen.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Start Menu\Change Start Menu\ChangeStartMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Physics\Gravity Off 2D\GravityOff2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Modify Hero Object\Change Layer\ChangeLayer.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Up\MoveUp.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\UIColor.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Modify Game Object\ToggleGameObject\ToggleGameObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Spawn and Destroy Objects\Spawn Object\SpawnObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Change Save Game Menu\ChangeSaveGameMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Get Save Game Date (String)\GetSaveDateString.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Get String From Template\GetStringFromTemplate.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Inventory Menu\Hide Inventory Menu\HideInventoryMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\UIScale.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Show Save Game Menu\ShowSaveGameMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Change Move Duration 2D\ChangeMoveDuration2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\LayerMaskValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Effects\Other Effects\Fade Out Scene\FadeOutScene.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Away From Object\TurnAwayFromObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\HeroTypeValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Rotate\Rotate Stop\RotateStop.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Change Text Field (String)\ChangeText.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Lists\GameObjectList.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\SpaceShooterController3D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Script Component\Set Property\SetProperty.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Upper Left 2D\TurnUpperLeft2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Lists\BoolList.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Rotate\Increment Rotation\IncrementRotation2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Forward\MoveForward.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Spawn and Destroy Objects\Create Pool\CreatePool.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Rotate\Rotate To Degrees\RotateToDegrees.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\AnimationParameterValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Effects\Other Effects\Change Fade Screen In Out\ChangeFadeScreenInOut.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D Platformer\Player Controller\Platformer Controller On\PlatformerControllerOn2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Change String\ChangeString.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects in Field of View\FilterHeroObjectsByFOV.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D Platformer\Player Controller\Platformer Controller Off\PlatformerControllerOff2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Upper Right 2D\MoveUpperRight2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Exit Actions\ExitActions.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Script Component\Get Field\GetFieldInfo.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\OnCollisionStopMovement 2D\OnCollisionStopMovement2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Scene\HeroKitObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Rotate\Rotate in Direction\RotateInDirection.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Physics\Ignore Collisions\IgnoreCollisions.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Lists\ConditionBoolList.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Up\TurnUp.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\If Hero Object\IfHeroObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Camera\First Person Camera Off\FirstPersonCameraOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroSettings2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Right 2D\TurnRight2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\PlatformerController2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Upper Left 2D\MoveUpperLeft2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Journal Menu\Show Journal Menu\ShowJournalMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Options Menu\Change Options Menu\ChangeOptionsMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Effects\Camera Effects\Shake Camera\ShakeCamera.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Forward 2D\MoveForward2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Effects\Camera Effects\Move Camera\MoveCamera.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Scene Object Info\Get Name\GetName.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Hide Save Game Menu\HideSaveGameMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Images\Color Image\ColorImage.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Misc\Change Position\ChangePosition2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Away From Object 2D\TurnAwayFromObject2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Journal Menu\Add Journal Entry\AddJournalEntry.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\RpgController2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Random\MoveRandom.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Toward Object 2D\TurnTowardObject2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Turn Audio On\TurnAudioOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\HeroObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\Else\Else.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\UIDialog.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Dialog and Language\Change Message Options\ChangeMessageOptions.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\FPSController3D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Effects\Other Effects\Fade In Scene\FadeInScene.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Set Jump Animation\SetJumpAnimation.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Images\Hide Image\HideImage.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\HeroList.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Get Bool From Template\GetBoolFromTemplate.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Spawn and Destroy Objects\Turn Hero Object Off\TurnObjectOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Physics\Ignore Collisions 2D\IgnoreCollisions2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Upper Left\MoveUpperLeft.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Spawn and Destroy Objects\Destroy Game Object\DestroyGameObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Wait Milliseconds\WaitMilliseconds.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\UnityObjectFieldValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\If Hero Count\IfHeroCount.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Get Save Game Scene\GetSaveGameScene.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Opposite 2D\TurnOpposite2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroRise3D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Physics\Gravity On\GravityOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Player Controllers\RPG Controller Off\RPGController3DOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Options Menu\Hide Options Menu\HideOptionsMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Objects By Name\GetHeroObjectByName.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Down\TurnDown.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Change Toggle Field\ChangeToggle.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Player Controllers\FPS Controller Off\FPSControllerOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Objects By Ray 3D\GetHeroObjectByRay.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Source Hero Object\GetSourceHeroObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\PrefabValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Physics\Turn Physics On or Off 2D\TurnPhysicsOn2DOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Objects By Property\GetHeroObjectByProperty.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Change Turn Duration\ChangeTurnDuration.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects By Distance\FilterHeroObjectsByDistance.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Stop SE\StopSE.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Change Visuals\ChangeVisuals.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Change Bool\ChangeBool.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Inventory Menu\Show Inventory Menu\ShowInventoryMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Change Text Field (Bool)\ChangeTextBool.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Rotate\Rotate X Degrees\RotateXDegrees.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Right\TurnRight.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Player Controllers\RPG Controller On\RPGController3DOn.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Face Move Direction Off 2D\FaceMoveDirectionOff2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Show Load Game Menu\ShowLoadGameMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Misc\Float\Float.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Start Menu\Hide Start Menu\HideStartMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Do While Loop\End Do While\EndDoWhile.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Animate Move On\AnimateMoveOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Journal Menu\If Journal Menu Open\IfJournalMenuOpen.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Get Scene Name\GetSceneName.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Images\Scale Image\ScaleImage.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Play Event\PlayEvent.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Objects By Type\GetHeroObjectByType.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects By Trigger\FilterHeroObjectsByTrigger.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Get Unity Object From Template\GetUnityObjectFromTemplate.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Scene Object Info\Get Rotation\GetRotation.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\End Game Menu\Show End Game Menu\ShowEndGameMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Script Component\Attach Script\AttachScript.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Change Move Speed\ChangeMoveSpeed.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Get Save Game Play Time (String)\GetSavePlayTimeString.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Effects\Particle Effects\Play Preexisting Particle Effect\PlayParticle.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement Settings\Change Move Settings 2D\ChangeMoveSettings2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\RpgController3D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Animate Move Off\AnimateMoveOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\Set Move Animation\SetMoveAnimation.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Modify Hero Object\CanSaveHeroObjectOff\CanSaveHeroObjectOff.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\End If\EndIf.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\SceneObjectValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Inventory Menu\Change Inventory Menu\ChangeInventoryMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Random Integer\RandomInteger.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\ParameterValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Lists\IntList.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Change Hero Object\ChangeHeroObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Scene Object Info\Get Tag\GetTag.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Pathfinding\Navigate Toward Object On\NavigateTowardObjectOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Rotate\Change Rotation\ChangeRotation.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Go To Scene with Hero Object\GoToScene.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Custom Direction\MoveCustomDirection.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Fade Out BGM\FadeOutBGM.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Get Float From Template\GetFloatFromTemplate.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\GameObjectFieldValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Lists\UnityObjectList.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\HeroObjectFieldValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Rotate\Rotate To Degrees\RotateToDegrees2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\EventValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero States\State\Block\HeroEvent.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\If Bool\IfBool.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Opposite\TurnOpposite.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Player Controllers\FPS Controller On\FPSControllerOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\CameraFieldValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\If Hero Object Facing\IfHeroObjectFacing.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Save Scene\SaveScene.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Lower Right\TurnLowerRight.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Toggle Bool\ToggleBool.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\RpgMovement2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Play SE\PlaySE.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Animation\Change Animation Int\ChangeAnimationInt.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Script Component\Call Method\CallMethod.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Custom Direction\TurnCustomDirection.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\4. Hero Common\Data\HeroKitCommonRuntime.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\If Condition\If Float\IfFloat.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Change BGM Settings\ChangeBGMSettings.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\CameraController.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\HeroSettings3D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Modify Scene Object\Disable Component\DisableComponent.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D Platformer\Movement\Move Right 2D Platformer\MoveRight2DPlatformer.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\TagValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Change Slider Value (Float)\ChangeSliderValueFloat.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Assets\Resources\Hero Scripts\CameraPan.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D Platformer\Movement\Jump 2D Platformer\Jump2DPlatformer.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Interfaces\IHeroListField.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\UI\Hero UI Objects\Duplicate Hero UI Object\DuplicateHeroUIObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Effects\Particle Effects\Play Particle Effect on Object\PlayParticleOnObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Lists\ConditionInputList.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Options Menu\Show Options Menu\ShowOptionsMenu.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Go Through Objects Off 2D\GoThroughObjectsOff2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move Settings\OnCollisionStopMovement\OnCollisionStopMovement.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Audio\Use Audio Snapshot\UseAudioSnapshot.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Rotate\Rotate Stop\RotateStop2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Inventory Menu\Add Inventory Item\AddInventoryItem.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Data\HeroKitAction.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Images\Show Image\ShowImage.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\1. Hero Objects\Data\Hero Lists\Templates\HeroListObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Inventory Menu\Remove Inventory Item\RemoveInventoryItem.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Objects By Distance\GetHeroObjectByDistance.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D Platformer\Movement\Turn Right 2D Platformer\TurnRight2DPlatformer.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\MethodValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Do While Loop\Do While Integer\DoWhileInteger.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Helper Scripts\SerializableType.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Variables and Properties\Change Float B\ChangeFloatB.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Physics\Turn Physics On or Off\TurnPhysicsOnOff.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Animate Move Off 2D\AnimateMoveOff2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Load Scene\LoadScene.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Right\MoveRight.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\OnCollisionContinueMovement 2D\OnCollisionContinueMovement2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Player Controllers\RPG Controller Off\TopDownControllerOff2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Change State\ChangeState.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Upper Right\TurnUpperRight.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\Movement\Move Settings\Change Move Speed 2D\ChangeMoveSpeed2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Spawn and Destroy Objects\Turn Object On\TurnObjectOn.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Spawn and Destroy Objects\Destroy Hero Object\DestroyObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Filter Hero Objects\Filter Hero Objects By GUID\FilterHeroObjectsByGUID.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Misc\Change Position\ChangePosition.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Move\Move Lower Right 2D\MoveLowerRight2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Persistent Objects\Delete Persistent Object\DeletePersistentObject.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Turn\Turn Upper Left\TurnUpperLeft.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\2D\2D RPG\Movement\Turn\Turn Upper Right 2D\TurnUpperRight2D.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Physics\Change Gravity Strength\ChangeGravityStrength.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Framework\3. Hero Actions\Scene\Fields\BoolValue.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Dialog and Language\Change Dialog Box\ChangeDialogBox.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\3D\Movement\Move\Move Lower Left\MoveLowerLeft.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Loading and Saving\Get Save Game Date (Int)\GetSaveDate.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Scene Object Info\Set Tag\SetTag.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\General\Comment\Comment.cs" />
+    <Compile Include="Assets\HeroKit\Hero Engine\Actions\Core\Scene Objects\Get Hero Objects\Get Hero Objects By Tag\GetHeroObjectByTag.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>X:\Unity\2022.3.12f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.Unified">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Unified.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.iOS">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Profiler.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.UI.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.005">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.Android">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MB-Physics-Prediction.csproj">
+      <Project>{B0DA931C-986F-1461-69BD-EC744EE663FF}</Project>
+      <Name>MB-Physics-Prediction</Name>
+    </ProjectReference>
+    <ProjectReference Include="BzKovSoft.RagdollHelper.Editor.csproj">
+      <Project>{ACBAF295-003F-C387-2D04-81AF6EBC95C3}</Project>
+      <Name>BzKovSoft.RagdollHelper.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
