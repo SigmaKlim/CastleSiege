@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 20 - Localization
+      and Font Examples.unity
+    guid: 20b6cdd164c772842bf9044cf9e0a556
+  - enabled: 0
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 8 - Particle
+      Effects.unity
+    guid: 60e2d819396edfa42855400327c3f086
+  - enabled: 0
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 29 - Journal
+      Menu Example.unity
+    guid: a04634257c0740b4b84a8829fd3f18f2
+  - enabled: 0
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 9 - Other
+      Effects.unity
+    guid: c0f6b4f84fe9db24e91c54466948b8c3
+  - enabled: 0
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 5 - Rotation
+      Examples.unity
+    guid: e04ef311cca822e4ab24b07613186463
+  - enabled: 0
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 3 - Animation
+      Examples A.unity
+    guid: 51d2164969bb6564e95dac9f9e99a15a
+  - enabled: 0
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 0 - Player
+      Controller Examples.unity
+    guid: a18f8181b0c00a6488d031b959e2bde0
+  - enabled: 0
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 14 A - Load
+      Scene Examples.unity
+    guid: b157ac6d5c0b3ed4f9f649894f0c71c8
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 13 B - Persistent
+      Objects Example.unity
+    guid: e1a09b374aafa844b88ab9e6c9bbeb3b
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 19 - Filter
+      Hero Objects Examples A.unity
+    guid: 237f933abfa9d8f4d9eaedb57a9c2153
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 22 - Dialog
+      Examples.unity
+    guid: 53e1d901bc2624843a31dedfdc4ffa72
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 2 - Audio
+      Examples.unity
+    guid: 24465ea24f7ffd84daa7501f68755b69
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Game - 3D Bat Attack/Scene1.unity
+    guid: 94a3809da6c1c7d419cde96757c3ef37
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 19 - Filter
+      Hero Objects by Field of View.unity
+    guid: 25e292e5aabf12d458fc128becf91690
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 21 - Script
+      Examples.unity
+    guid: f537633721aa63448801a207363bace6
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 2D Top Down/Scenes/1 - 2D
+      RPG Controller Example.unity
+    guid: 96edc668782b2d34986f64200ba41d36
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 6 - Turning
+      Examples.unity
+    guid: 96aef7f25fc33d248bd1a86b24d96c05
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 11 - Pooling
+      Objects Example.unity
+    guid: a681220893b045743bdbe6b0e4403d2c
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 7 - Pathfinding
+      Examples.unity
+    guid: 278a58686c0367846b3e5247f2f225a9
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 13 A - Persistent
+      Objects Example.unity
+    guid: e7ca8edc91f341246aef0fe59a5f9c8f
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 14 B - Load
+      Scene Examples.unity
+    guid: f7e0e56877d9e584b878c16fdf8a9cd3
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 17 - Get
+      Game Objects Examples.unity
+    guid: b897fc10fb7f34d4dad8685c7840981d
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: c850ee8c3b14cc8459e7e186857cf567
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 1 - Camera
+      Examples.unity
+    guid: f83164a831b6c374184e347ec92e824a
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 4 - Movement
+      Examples B.unity
+    guid: 19eb1cbb702ee4f48915d487ac719204
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 2D Platformer/Scenes/1 -
+      2D Platform Controller Example.unity
+    guid: 69575e6f2904c4c7dafafe28c5ec7068
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 3 - Animation
+      Examples B.unity
+    guid: 797a32f612057e94c948d88f96d3c2d6
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 18 - Get
+      Hero Objects Examples A.unity
+    guid: 99f21b5e22a7faf49900e691d1642300
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 15 - Property
+      Examples.unity
+    guid: 1ab375abd04af7842810cd2ed311358a
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 16 - Loops
+      and Statements Examples.unity
+    guid: 4a722580cd553a44f8b71f4f74715730
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 4 - Movement
+      Examples A.unity
+    guid: 5adc1f204ae1616459f8caca390172bc
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 15 - Variables
+      Examples.unity
+    guid: 8af09a4aae6f9114c8026c6b3eb33b93
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 18 - Get
+      Hero Objects Examples B.unity
+    guid: 0bea35dacac666b4795359e9ca97bc74
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 19 - Filter
+      Hero Objects Examples B.unity
+    guid: 2b132ff0741c73e44a13e685b34af3ae
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 27 - End
+      Game Example.unity
+    guid: 3cba9acd6e5e611459aa072d2bf77970
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 10 - Image
+      Examples.unity
+    guid: 7ee79680081608f46b0ced13686aface
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 28 - NPC
+      Interaction Example.unity
+    guid: 3f30650e51cabae41abc8f952724c203
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 12 - Spawn
+      Objects Example.unity
+    guid: 3fd99c7f6c3560249b4703c7c3a27183
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 25 - Options
+      Menu Example.unity
+    guid: 7feb84bf714363a48997a4ab08c82ec7
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 24 - Load
+      and Save Menu Example.unity
+    guid: af2acc833f581f04f8cc1f32da9e346f
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 23 - Inventory
+      Menu Example.unity
+    guid: ff60252617abfa24189121d0f8923b99
+  - enabled: 1
+    path: Assets/HeroKit/HeroKit Samples/Sample Scenes - 3D/Scenes/Scene 26 - Start
+      Menu Example.unity
+    guid: ff01193eff44e7c4c8c7020a015ac0d9
+  - enabled: 1
+    path: Assets/Pup Up Productions/Voxel Castle Pack Lite/Scenes/AssetScene.unity
+    guid: 10bb08f21592544cfa40cfd39339b17b
+  - enabled: 1
+    path: Assets/Pup Up Productions/Voxel Castle Pack Lite/Scenes/ExampleScene.unity
+    guid: 7841b4a9df3214503b7e5a137b8f00e1
+  - enabled: 1
+    path: Assets/Painted HQ 2D Forest Medieval Background/Examples/Scene.unity
+    guid: 1ca1e548c6c0a7940acee6009006bc9b
+  - enabled: 1
+    path: Assets/Physics-Prediction/Example/Projectile Shooter 2D/Projectile Shooter
+      2D.unity
+    guid: 2992027415cc9f8428e17ccbbf231ccd
+  - enabled: 1
+    path: Assets/Physics-Prediction/Example/Projectile Shooter 3D/Projectile Shooter
+      3D.unity
+    guid: aaa4eeacc91c6ec4baf9d56a236d4a41
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+    guid: 50f52f9274434ecfb34dd87f0836f323
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+    guid: 70615243e2be4a81afaab9bf5d273d65
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+    guid: 21a509e1d3cd49978623fa564adb6f02
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+    guid: 22a2fba786ad4c40ac0ba09f0b933100
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+    guid: 6250f98e58fe4abbaada5d84b7ca846d
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking
+      & Layout.unity
+    guid: 03f9d74cec8e4b94a29d2dfd177c821b
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript
+      Example.unity
+    guid: 03ec435d4b7140e9b2d87f79136d8374
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+    guid: 337f92480dd24675aae9e79210fb1ad9
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List
+      Example.unity
+    guid: c3f814e1d12c45568daf3dd9a86a0e61
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+    guid: 349f38d3606449708c7340d26740e1e2
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+    guid: 54e994244b4b467e8583cf2da6dcc716
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+    guid: 84ed36ad77dd4956b2ffe3769f759879
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow
+      mode example.unity
+    guid: 9442cda25baa4a0bb544c4d095b00caa
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
+    guid: 251716609f634449bfe8ce75c0ed78fe
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity
+    guid: 16177da2e3254cee91944756d5f8ddd3
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+    guid: 875684baf40f4d008ce806d03e2a81b2
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+    guid: 9747140c28254be2adc582210dfb89b8
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
+    guid: e76e6c0f81964cbda3fe0b7d26ed8060
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder
+      Example.unity
+    guid: 0851605490a599b46b6ac5cb681d93ea
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+    guid: 08572ab7713642c8a60789750f0bce5c
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+    guid: 39a1fa96ad2a449b908fca29d4297a74
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+    guid: f9b4c22e15cff344ba9fc6542a58dd07
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh
+      Pro.unity
+    guid: 2ac8cf212df6445e8aebbe3cb832e993
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft
+      Mask.unity
+    guid: 9abcd5bd764646568a6ea70d00f9264c
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+    guid: 8c4969fd8ba94a68b07cf11f3e7a5137
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+    guid: 3e2e4d7b0bed4cf9ab827e9f32448f69
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+    guid: 5fe2257128d9401fad0790f581dc8a6f
+  - enabled: 1
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+    guid: 8f7137eacd7042d5b17ef0efe5e744f5
+  - enabled: 1
+    path: Assets/Simple FX Kit/Scenes/Demo.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0bc00b0fb8b25384a84e9b5fda7a174b,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: b1c164a2bed3ae741a441b2d9244f5e3, type: 2}
